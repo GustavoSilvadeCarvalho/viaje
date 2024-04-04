@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.principal {
+    background-image: url(imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+
+}
+
+.principal-h3 {
+    padding-bottom: 21.8rem;
+    font-weight: 500;
+}
+
+.principal-h2 {
+    padding-top: 12rem;
+    padding-bottom: 1rem;
+
+    font-size: 3rem;
+}
+
+.principal-p {
+    font-size: 1.5rem;
+}
+
+.principal-btn {
+    background-color: #2E5441;
+    color: #fff;
+
+    margin: 3rem 0 4rem 0;
+    padding: 2rem 3.5rem;
+
+    border-radius: 4rem;
+    border: 0px;
+
+    font-size: 1.3rem;
+
+    transition: 0.4s;
+
+    cursor: pointer;
+}
+
+.principal-btn:hover {
+    background-color: #000;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beneficios-titulo {
+    font-size: 2.7rem;
+
+    padding: 4rem 0;
+}
+
+.beneficios-cards {
+    width: 100vw;
+    max-width: 1425px;
+
+    display: flex;
+    justify-content: space-around;
+
+    overflow-x: hidden;
+}
+
+.cards-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-1-titulo {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.cards-1-descricao {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #3C3C3C;
+
+    max-width: 300px;
+}
+
+.destinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destinos-titulo {
+    font-size: 2.7rem;
+
+    padding: 4rem 0;
+}
+
+.destinos-cards {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100vw;
+    max-width: 1425px;
+}
+
+.card-2 {
+    overflow: hidden;
+    border: 8px solid #ddd;
+    border-radius: 40px;
+    position: relative;
+
+    color: #fff;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -102%;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    transition: 1.5s;
+}
+
+.card-2:hover .card-body {
+    right: 0;
+}
+
+.card-title {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.card-sub-title {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.card-info {
+    font-size: 1.2rem;
+    padding: 12rem 1rem 1rem 1rem;
+    width: 80%;
+}
+
+.card-btn {
+    background-color: #fff;
+    padding: 1rem 3rem;
+    margin-left: 1rem;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-titulo {
+    font-size: 2.2rem;
+
+    padding: 4rem 0;
+}
+
+.formulario-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+}
+
+.container-texto {
+    width: 50%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.contianer-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    width: 20vw;
+    padding: 1.4rem;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    border: solid #000 2px;
+    margin-bottom: 1rem;
+}
+
+.form-btn {
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1.2rem 2rem;
+    border: solid #000 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    font-weight: 600;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.footer-nome {
+    display: flex;
+    align-items: center;
+}
+
+.footer-img-hacker {
+    width: 40px;
+    padding-right: 0.8rem;
+}
+
+.footer-icon {
+    width: 40px;
+    padding: 0.5rem 0.5rem;
+}
