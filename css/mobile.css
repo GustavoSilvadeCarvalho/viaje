@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@media screen and (max-width: 430px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .principal-h3 {
+        padding-bottom: 14rem;
+    }
+    
+    .principal-h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .principal-p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .principal-btn {
+        padding: 1.3rem 3.3rem;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .beneficios-titulo {
+        text-align: center;
+    }
+    
+    .beneficios-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .destinos-titulo {
+        text-align: center;
+    }
+    
+    .destinos-cards {
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    .card-2 {
+        margin-bottom: 4rem;
+    }
+    
+    .formulario-titulo {
+        text-align: center;
+    }
+    
+    .formulario-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-texto {
+        width: 80%;
+    }
+    
+    .form-input {
+        margin-top: 2rem;
+        width: 80vw;
+    }
+}
